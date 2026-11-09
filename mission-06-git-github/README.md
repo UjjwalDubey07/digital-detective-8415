@@ -34,29 +34,20 @@ Understand the basic Git workflow, create a branch, open a Pull Request, and bui
 - **Collaboration value:** Parallel work without conflicts, code review before merge, traceable discussion on changes.
 
 ### Git Glossary
-┌─────────────────────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│      Git Operation      │                                          One-line Explanation                                           │
-├─────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Initialise a repository │ git init creates a new .git directory, turning the current folder into a version-controlled repository. │
-├─────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Check status            │ git status shows modified, staged, and untracked files compared to the last commit.                     │
-├─────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Stage changes           │ git add <file> moves changes from working directory to the staging area for the next commit.            │
-├─────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Commit changes          │ git commit -m "message" records a permanent snapshot of staged changes with a descriptive message.      │
-├─────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ View history            │ git log (or git log --oneline) displays the chronological commit history with hashes and messages.      │
-├─────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Create or list branches │ git branch <name> creates a branch; git branch lists all local branches.                                │
-├─────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Switch branches         │ git checkout <branch> or git switch <branch> moves HEAD to the specified branch.                        │
-├─────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Publish changes         │ git push -u origin <branch> uploads local commits to the remote repository on GitHub.                   │
-├─────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ Retrieve remote changes │ git pull fetches and merges changes from the remote branch into the current local branch.               │
-└─────────────────────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
----
+| Git Operation | One-line Explanation |
+| :--- | :--- |
+| Initialise a repository | `git init` creates a new `.git` directory, turning the current folder into a version-controlled repository. |
+| Check status | `git status` shows modified, staged, and untracked files compared to the last commit. |
+| Stage changes | `git add <file>` moves changes from working directory to the staging area for the next commit. |
+| Commit changes | `git commit -m "message"` records a permanent snapshot of staged changes with a descriptive message. |
+| View history | `git log` (or `git log --oneline`) displays the chronological commit history with hashes and messages. |
+| Create or list branches | `git branch <name>` creates a branch; `git branch` lists all local branches. |
+| Switch branches | `git checkout <branch>` or `git switch <branch>` moves HEAD to the specified branch. |
+| Publish changes | `git push -u origin <branch>` uploads local commits to the remote repository on GitHub. |
+| Retrieve remote changes | `git pull` fetches and merges changes from the remote branch into the current local branch. |
+
+--- 
 
 
 ## 5. Difficulties Faced
