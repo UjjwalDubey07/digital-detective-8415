@@ -21,3 +21,9 @@ This repository contains my submissions for the **Digital Detective** Diwali Ind
 
 ## Submission Guidelines
 Each mission is worked on, documented, and committed individually into its dedicated directory.
+
+## My Learning
+
+1. **IPOS Cycle:** How data flows through Input → Processing → Output → Storage in every computer activity.
+2. **Terminal & File Management:** Using `pwd`, `ls`, `cp`, `mv`, pipes (`|`), and redirection (`>`, `>>`) to navigate and manipulate files efficiently.
+3. **Number Systems & Encoding:** Manual binary/hex conversion, Python's `bin()`/`hex()`/`int()`, and how ASCII/UTF-8 map characters to numbers. 
